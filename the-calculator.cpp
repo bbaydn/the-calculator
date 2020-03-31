@@ -1,7 +1,9 @@
+//Calculator says hi in Turkish
+//My first program with C
 #include<stdio.h>
 #include <stdlib.h>
 #include<math.h>
-//Ýlk deneme hesap makinesi
+
 int main()
 {
 	
@@ -12,7 +14,7 @@ int main()
 	
 	printf("Isminiz nedir?\n");
 	fgets(name, 20, stdin);
-	printf("Merhaba %s su anda cok tatli bir hesap makinesi ile konusuyorsun. \n", name);
+	printf("Merhaba %s su anda bbaydn tarafindan yapilan ilk hesap makinesi ile konusuyorsun. \n", name);
 	
 	printf("Yapmak istedigin islemi sayi ile gosterir misin? \n 1- Toplama\n 2- Cikarma\n 3- Carpma\n 4- Bolme\n 5- Us alma\n 6- Karekok\n");
 	scanf("%d", &islem);
